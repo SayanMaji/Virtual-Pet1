@@ -39,7 +39,7 @@ function draw() {
   textSize(20);
   fill("blue");
   stroke(2);
-  text("NOTE : Press UP Arrow to give LDrago his power", 250,400);
+  text("NOTE : Press UP Arrow to give LDrago his power", 150,400);
   text("Food Stock :"+ foodS,250,420);
 
 }
