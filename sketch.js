@@ -15,6 +15,7 @@ function setup() {
 	createCanvas(500, 500);
   d = createSprite(250,250,20,20);
   d.addImage(dog);
+  
 
   database = firebase.database();
 
@@ -28,8 +29,8 @@ function draw() {
   
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
-    dog.addImage(happy_dog);
-    dog.scale= 0.01;
+    d.addImage(happy_dog);
+    d.scale= 0.8;
     }
 
   drawSprites();
